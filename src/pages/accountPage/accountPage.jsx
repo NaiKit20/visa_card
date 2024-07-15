@@ -13,7 +13,7 @@ import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 import 'swiper/css';
 
-function AccountPage() {
+function AccountPage() { // deploy https://ogs-exam-visa-card.web.app/detail
     const navigate = useNavigate();
     return (
         <>
