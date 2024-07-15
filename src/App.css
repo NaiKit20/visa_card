@@ -28,6 +28,7 @@ body {
 
 .income-expense {
   display: flex;
+  align-items: center;
   border-radius: 5px;
   width: 85%;
   height: 75px;
@@ -36,8 +37,16 @@ body {
   background-color: #fefefe;
 }
 
+.income-expense hr {
+  height: 50%;
+  width: 1px;
+  border: none;
+  background-color: rgb(220, 220, 220);
+}
+
 .income-expense-detail {
   width: 50%;
+  height: 100%;
   padding-inline: 30px;
   display: flex;
   flex-direction: column;

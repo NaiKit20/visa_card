@@ -147,6 +147,7 @@ function AccountPage() { // deploy https://ogs-exam-visa-card.web.app
                             <h4>$9,302.00</h4>
                         </div>
                     </div>
+                    <hr />
                     <div className="income-expense-detail">
                         <div className="income-expense-head">
                             <h5>Expense</h5>

@@ -80,12 +80,20 @@
 
 .detail-income-expense {
   display: flex;
+  align-items: center;
   border-radius: 5px;
   width: 85%;
   height: 75px;
   margin-top: -40px;
   box-shadow: 1px 1px 5px rgba(220, 220, 220, 0.5);
   background-color: #fefefe;
+}
+
+.detail-income-expense hr {
+  height: 50%;
+  width: 1px;
+  border: none;
+  background-color: rgb(220, 220, 220);
 }
 
 .dropdown {
