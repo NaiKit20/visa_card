@@ -1,0 +1,110 @@
+.app-header {
+  width: 85%;
+  display: flex;
+  justify-content: space-between;
+  padding-block: 20px;
+  color: #395773;
+}
+
+.app-header-detail h5 {
+  color: #aaaab0;
+}
+
+.card-item {
+  padding-inline: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 85%;
+  height: 200px;
+  background: linear-gradient(120deg, #40627e, #0d2132);
+  border-radius: 4%;
+  overflow: hidden;
+  margin: 0 auto;
+  padding-block: 10px;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  height: 40%;
+}
+
+.card-header-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card-header-left h2 {
+  color: #e8f6f9;
+}
+
+.card-header-right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: end;
+  width: 55%;
+}
+
+.card-header-right p {
+  font-size: 12px;
+  color: #7aac84;
+}
+
+.card-header-right h1 {
+  color: #a1b2ba;
+}
+
+.card-header-right-balance {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.dollar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  width: 20px;
+  height: 20px;
+  background-color: #022032;
+}
+
+.dollar h4 {
+  font-size: 14px;
+  color: #d1d9e2;
+}
+
+.card-body {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-body p {
+  font-size: 22px;
+  color: #9aafc4;
+}
+
+.card-buttom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-buttom-detail {
+  display: flex;
+  align-items: center;
+  color: #aec1cf;
+}
+
+.card-buttom-detail p {
+  margin-left: 5px;
+  font-size: 14px;
+}
+
+.swiper-pagination {
+  color: #397348;
+}
