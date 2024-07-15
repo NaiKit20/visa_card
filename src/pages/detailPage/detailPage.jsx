@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faChartSimple, faAngleDown, faCalendarDay, faArrowUp, faArrowDown, faUtensils, faHandHoldingDollar, faBagShopping, faCoins } from '@fortawesome/free-solid-svg-icons'
 
-function DetailPage() {
+function DetailPage() { // deploy https://ogs-exam-visa-card.web.app/detail
     const navigate = useNavigate();
     return (
         <>
